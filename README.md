@@ -41,7 +41,8 @@
 - `Maven usage`
   - Install `DrFirst` JAR in repository
     - i.e: using mvn install:install-file (https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
-  - Depend Maven project on `DrFirst` JAR, in project `pom`:
+  - Depend Maven project on `DrFirst` JAR (https://github.com/cellepo/JavaSortAnyTopLevelValueObject/releases),
+    in project `pom`:
     ```
     <dependency>
      <groupId>DrFirst</groupId>
